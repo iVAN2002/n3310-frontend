@@ -11,6 +11,8 @@ window.onload = function () {
         game.update(dt);
         game.draw(mycontext);
 
+	lastTime = now;
+
         requestAnimFrame(nGameLoop);
     };
 
